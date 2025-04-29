@@ -326,7 +326,7 @@ class Program
                         Console.WriteLine("Невалідне введення");
                         goto start1;
                     }
-                    if (count > 5000000)
+                    if (count > 100000)
                     {
                         Console.WriteLine("Не балуйтесь");
                         goto start1;
